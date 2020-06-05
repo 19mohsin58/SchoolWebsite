@@ -1,0 +1,1083 @@
+html,body{
+	width: 100%
+	height:auto;
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;
+}
+
+
+.text-block1{
+
+position: absolute;
+  top:40%;
+  left:40%;
+  color: black;
+
+}
+
+
+.text-block2{
+
+position: absolute;
+  top:40%;
+  left:40%;
+  color: #0f4580;
+
+}
+
+
+.text-block3{
+
+position: absolute;
+  top:15%;
+  left:40%;
+  color: #0f4580;
+
+}
+
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  top:40%;
+  left:40%;
+  background-color: none;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: cambria;
+  color: white;
+}
+
+
+.sliderbutton{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.logo{
+	width: 100%;
+	height:auto;
+	background-color:none;
+	display: flex;
+	flex-direction: row;
+	justify-content: ;
+	flex-flow: wrap;
+	justify-content: space-around;
+	color:#f7d514;
+	font-family: Charlemagne Std;
+	
+}
+
+.buttons{
+	font-size: 13px;
+	color: white !important;
+	background-color:#0f4580;
+	border:0px; 
+}
+
+
+.topLine{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 25px;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: wrap;
+	background-color: #0f4580;
+	color: ;
+	font-size: 12px;
+
+}
+
+.fa-user{
+	padding-right:10px;
+	margin-right: 7px;
+	border-right: 1px solid  white;
+}
+
+#border{
+	border-right: 1px solid white;
+	padding-right: 10px;
+	margin-right: 8px;
+}
+
+.virtual{
+	color: #f7d514 !important;
+	font-family: tarjan pro;
+}
+
+.logt{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: ;
+	margin-left:;
+}
+#tt{
+
+	color: white;
+	font-family:Charlemagne Std;
+	line-height: 20px; 
+
+}
+
+#sst{
+	font-family: cambria;
+	font-size: 25px;
+}
+
+
+
+
+.tl{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+.Schoolt{
+		
+		line-height: 10px;
+}
+
+h2{	
+
+	align-items: center;
+	padding-top: 25px;
+	
+}
+#jam{
+		font-family: cambria;
+		font-size: 26.5px;
+		color: #0f4580;
+}
+
+.icons{
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+	background-color:;
+	width: 250px;
+	text-align: center;
+	margin-left: 4.5cm;
+	align-items: center;
+	justify-content: center;
+}
+
+#icon1{
+				border-radius: 50px;
+				background-color:white ;
+				justify-content: center;
+				margin: 5px;
+				box-shadow: 3px 3px 2px #d4d6d9;
+
+}
+
+#icon2{
+		width: 40px;
+		border-radius: 45%;
+		background-color:white;
+			margin: 5px;
+			box-shadow: 3px 3px 2px #d4d6d9;
+}
+
+@media screen and (max-width: 600px){
+	.icons{
+		margin-top: 20px;
+		margin-left: 0px;
+	}
+	.logt{
+		margin-top: 20px;
+	}
+}
+
+
+.sidebox{
+	position: fixed;
+	top: 50%;
+	right:0px;
+}
+
+#inq{
+	box-shadow:0 0 5px black;
+	background:#0f4580;
+	width: 80px;
+	height: 80px;
+	margin-top: 5px;
+	text-align: center;
+	font-family: cambria;
+	font-weight: bold;
+	color: white;
+	padding-top: 20px;
+}
+
+
+
+#inq1{
+	box-shadow:0 0 5px black;
+	background:#f7d514;
+	width: 80px;
+	height: 80px;
+	margin-top: 5px;
+	text-align: center;
+	font-family: cambria;
+	font-weight: bold;
+	color: black;
+	padding-top: 20px;
+}
+
+
+
+
+
+ul>li>a{
+		font-size: 14px;
+		font-weight: bold;
+	/*	border-radius: 25px;*/
+		margin-left:25px; 
+		transition: 0.6s;
+		padding: 20px 20px !important;
+
+
+}
+
+.dropdown:hover>.dropdown-menu{
+	display: block;
+	transition: 1s;
+	background-color:#0f4580;
+	/*margin-top: 24px;*/  
+}
+
+/*<!-----Hover Designs to the buttons neechy---->*/
+
+a:hover{
+	/*border: 2px solid white;*/
+	/*background-color: #0f4580;*/
+	color: white !important;
+	border-radius: 2px;
+	transition: 0.5s;
+	background-color: 
+	
+}
+
+/*<!------Start Of NAVBAR BUTTONS---->*/
+
+
+
+/*<!------Sardar Full---->*/
+
+
+
+
+.navbar{	
+			/*padding: 20px !important;*/
+			height: px;
+			border-bottom: 3px solid #f7d514;
+			font-family:Trajan Pro; 
+			background-color: #0f4580;
+			width: 100%;
+			z-index: 100;
+			/*box-shadow: 5px 0px 10px gray;*/
+			
+
+			
+}
+   
+
+
+   /*<!------This is for Home Button---->*/
+#bh{
+	color: white !important;
+	border-radius: 2px;
+
+	/*border: 2px solid white;*/
+	/*background-color: #0f4580;*/
+}
+	/*<!------This is for Home Button---->*/
+
+
+
+
+
+/*<!------Saylani LOgo---->*/
+
+/*<!------Saylani LOgo---->*/
+
+
+
+
+
+
+
+
+/*<!-----Drop Down ITEMS---->*/
+
+/*<!------Start Of Drop Down Of NAv Buttons Like HOme---->*/
+.dropdown-item{
+				color: white !important;
+				background-color: #07f7f3;
+				font-size: 13px;
+				color:white;
+				font-weight: bold; 
+				transition: 0.6s;
+				z-index: /*<!------ese hi lagaya tha checkup k liye---->*/
+}
+/*<!------End Of Drop Down Of NAv Buttons Like HOme---->*/
+
+
+/*<!------Start Of Hover design Drop Down Of NAv Buttons Like HOme---->*/
+.dropdown-item:hover{
+	visibility: visible;
+	background-color:#dbb82e !important;
+	color: black !important;
+	padding-left: 40px; 
+	border-radius: 0px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+
+
+.aboutimg{
+		width: 100%;
+
+}
+.h3{
+	text-align: center;
+	padding-top: 2cm;
+	padding-bottom: 0.5cm;
+	font-family: Segoe Script !important;
+	font-weight: bold !important;
+
+}
+.text{
+	padding-left: 1.5cm;
+	padding-right: 1.5cm;
+	text-align:justify;
+	line-height: 1.7em;
+	font-family: cambria;
+}
+
+.butt{
+	border-radius: 25px !important;
+	background-color: #f7d707;
+	color: black !important;
+	font-family: cambria;
+	font-weight: bold;
+	margin-top: 1px;
+	margin-bottom: 40px;
+}
+.butt:hover{
+	background-color:#0f4580;
+
+	
+}
+
+#ss{
+	color:#f7d707; 
+}
+#sc{
+	color: #0f4580;
+}
+
+
+
+
+
+
+#cont{
+	padding: 30px;
+	
+	
+}
+
+
+@media screen and (max-width: 750px){
+	.circle{
+		width: 200px;
+		height: 200px;
+	}
+	#h2{
+		font-size: 20px;
+	}
+}
+
+
+.circle{
+		width: 300px;
+		height: 300px;
+		background: url(images/mohsin.jpg);
+		background-size: cover;
+		border-radius: 50%;
+		float: left;
+		shape-outside: circle();
+		margin: 60px 30px 30px 0;
+}
+
+#p{
+	margin: 0px;
+	padding: 0px;
+	text-align: justify;
+	line-height: 22px;
+	font-family: Trajan Pro;
+	font-weight: bold;
+}
+
+#h2{
+	font-family: Hobo Std !important;
+	color: #0f4580;
+	padding-bottom: 0.2cm;
+	padding-top: 0.2cm;
+}
+#message{
+	color: #f7d514;
+}
+
+.upbtn{
+	transition: 0.5s;
+	position:fixed;
+	bottom: 15px;
+	right:15px;
+	opacity: 0.1;
+}
+
+.upbtn:hover{
+	background-color: black;
+	opacity:1;
+	border-radius: 25px;
+}
+
+
+
+.blue{
+	clear:left;
+	margin: 0px;
+	padding: 0px;
+	width: 100%
+	height:auto;
+	background-color: none;
+	display: flex;
+	flex-direction: row;
+	
+	flex-flow: wrap;
+}
+
+
+
+.No1{
+	overflow-y: hidden;
+	width: 20%;
+	height: 300px;
+	background-color: #0f4580;
+	text-align: center;
+	padding-top: 60px;
+	color: white;
+	font-family: cambria;
+	transition: 0.3s;
+}
+
+.No1:hover{
+	padding-top: 30px;
+	background-color: #f7d514;
+	transition: 0.3s;
+}
+
+.fo{
+	margin-bottom: 25px;
+}
+
+
+#hr{
+	width: 30px;
+	height: 1px;
+	background-color: white;
+	margin-top: 1cm;
+}
+#hrf{
+	margin-top: 0px !important;
+	width: 30px;
+	height: 1px;
+	background-color: white!important;
+}
+
+.No1:hover #hr,#hrf{
+	background-color: #0f4580; 
+}
+
+.bt{
+	opacity:0;
+	border:none;
+	background: none !important;
+	
+	font-weight: bold!important;
+    margin-top: 20px;
+}
+.No1:hover .bt{
+
+	opacity: 1;
+	transition: 0.5s;
+	border: 2px solid white;
+	color:#0f4580 !important;
+}
+
+.bt:hover{
+	background-color: white !important;
+	color:#0f4580; 
+}
+
+/*Media Queri Start*/
+@media screen and (max-width: 1200px){
+	.No1{
+		width: 100%;
+		display: block;
+	}
+	.hr{
+		margin-top: 0cm;
+	}
+}
+
+/*@media screen and (max-width: 600px){
+	.No1{
+		width: 100%;
+	}*/
+
+/*Media Query End*/
+
+.moh{
+	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+
+.img2{
+	width: 20%;
+	height: 300;
+}
+
+.hh{
+	text-align: center;
+}
+
+
+
+
+
+
+
+/*START OF GALLERY*/
+
+
+.contain{
+			width: 100%;
+			min-height: 300px;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			margin-bottom;
+}
+
+.contain .box{
+	margin-top: 10px;
+	position: relative;
+	width: 335px;
+	height: 335px;
+	
+	/*box-sizing: border-box;*/
+	display: inline-block;
+}
+
+
+
+
+
+.contain .box .imgBox{
+	position: relative;
+	overflow:hidden;
+}
+
+
+.contain .box .imgBox img{
+	width: 100%;
+	height: 335px;
+	transition: transform 2s;
+}
+
+.contain .box:hover .imgBox img{
+	/*transform: scale(1.2);*/
+}
+
+.contain .box .details{
+	opacity: 1;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	color: white;
+	overflow: hidden;
+	background:rgba(15, 69, 128,0.8);
+	transition: transform 0.5s;
+	/*transform: scaleY(0);*/
+	
+}
+
+.galleryButton{
+	background-color: white !important;
+	margin-top: 30px;
+	color:#0f4580!important; 
+	font-weight: bold;
+}
+
+.galleryButton:hover{
+	background-color: #f7d514 !important;
+	color:#0f4580!important;
+}
+
+
+.contain .box:hover .details{opacity: 1;
+							/*transform: scaleY(1);	*/
+							top: 0;
+							transition: 0.5s;
+}
+.contain .box .details .content{
+	position: absolute;
+	top: 50%;
+	transform:translateY(-50%);
+	text-align: center;
+	padding: 15px;
+	color: white;
+}
+
+
+.contain .box .details .content h2{
+	margin: 0px
+	padding:0px;
+	font-family: Trajan Pro;
+	font-weight: bold;
+	color: #f7d514;
+
+}
+
+
+
+
+
+
+.contain .box .details .content p{
+	margin: 10px 0 0;
+	padding:0px;
+	/*font-weight: bold;*/
+	font-family: cambria;
+
+
+}
+
+
+.hh{
+	font-family:Hobo Std;
+	margin-top: 2cm;
+	margin-bottom: 10px;
+}
+#i2{
+		color: #0f4580;
+}
+#g{
+		color:  #f7d514 ;
+}
+
+
+
+/*.youtubegallery{
+	height: 400px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #0f4580;
+}
+*/
+
+/*blue line start*/
+.con{
+	width: 100%
+	height:auto;
+	background-color: /*#0456e0*/;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-flow: wrap;
+	margin-top:1cm;
+
+}
+
+.bo{
+	width: 25%;
+	height: 230px;
+	background-color:#fcfcfc;
+
+	margin-top: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 20px;
+	justify-content: center;
+	
+
+}
+
+#bo1{
+	border-right:  1px solid gray;
+}
+
+
+/*Media Queri Start*/
+@media screen and (max-width: 1200px){
+	.bo{
+		width: 40%;
+		border-bottom: 1px solid gray;
+		
+	}
+	#bo1{
+		border-right: 0px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.bo{
+		width: 90%;
+	}
+}
+/*Media Query End*/
+
+	#p2{color: #f7d514;
+		font-size: 23px;
+	font-family: Trajan Pro;
+	font-weight: bold;
+	padding-top: 30px;
+	text-align: center;
+	line-height: 2em;
+
+	
+}
+
+
+.fas{
+	
+	font-size: 70px;
+	color: #0f4580;
+}
+
+
+#month{
+        color: #40ff05;
+        font-size: 20px;
+}
+
+
+
+
+
+
+.no1{
+	font-size: 50px;
+	font-family: MV Boli;
+	font-weight: bold italic;
+	color: #f7d514;
+	margin-bottom: 20px;
+}
+
+
+
+
+#no2{
+	font-size: 50px;
+	font-family: MV Boli;
+	font-weight: bold italic;
+	color: white;
+}
+
+
+
+
+#no3{
+	font-size: 50px;
+	font-family: MV Boli;
+	font-weight: bold italic;
+	color: white;
+}
+
+
+
+
+#no4{
+	font-size: 50px;
+	font-family: MV Boli;
+	font-weight: bold italic;
+	color: white;
+}
+/*END OF BLUE LINE*/
+
+
+
+
+/*END OF GALLERY*/
+
+.newscont{
+	margin-bottom: 2cm;
+	margin-top: 0.5cm;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: justify;
+	justify-content: center;
+}
+
+.card:hover{
+	border: 1px solid black;
+	transition: 0.4s;
+}
+
+
+.card{
+	transition: 0.4s;
+	width: 340px;
+	height: auto;
+	margin: 10px;
+	text-align:  center;
+}
+
+.newsbtn{
+	opacity: 0;
+	background-color:#f7d514 ;
+	color:white;
+	margin-top: 30px;
+	transition: 0.8s;  
+
+}
+
+.card:hover .newsbtn{
+	opacity: 1;
+	background-color:#0f4580;
+	transition: 0.8s; 
+}
+
+.card-title{
+	font-family: Tarjan Pro;
+	color: #f7d514;
+	padding-bottom: 40px;
+	padding-top: 20px;
+}
+
+.card-text{
+	color: #0f4580;
+	font-family: sans-serif;
+	line-height: 1.5em;
+}
+
+.recent{
+	margin-top: 2cm;
+	text-align: center;
+	justify-content: center;
+	color: #0f4580;
+	font-family: Hobo Std;
+}
+
+#N{
+	color:#f7d514; 
+}
+
+
+
+/*<!-----Sart Of Merque Design---->*/
+.linetext{	
+			margin-top: 15px;
+			margin-bottom: 15px;
+			padding-top: 10px;
+			height: 40px;
+			width: 100%;	
+			background-color:  #0f4580;
+			 
+			color: white;
+			font-family: sans-serif;
+}
+/*<!-----END  Of Merque Design---->*/
+
+.boxes3{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:center;
+	margin-bottom: 1cm;
+
+}
+
+.box1{
+	width: 200px;
+	height: auto;
+	
+	text-align: center;
+	margin: 20px;
+	box-shadow: 0px 0px 20px 0px #c1c4c0;
+	padding-top: 15px;
+	padding-bottom:  15px;
+}
+
+
+
+
+
+
+
+.segment-two{
+	color: white!important;
+
+	margin-left: 1.2cm;
+
+}
+
+.mail{
+		color: white;
+}
+
+.useful{
+	font-family: cambria;
+	font-weight: ;
+}
+
+.useful:after{
+	content: "";
+	display: block;
+	width:60px;
+	height: 2px;
+	background: green;
+	margin-top: 15px;}
+
+#conicon{
+	padding-right: 12px;
+}
+
+.heado{
+	color: white;
+	padding-top:15px;
+	font-family: sans-serif;
+}
+
+.footer-top{
+	background-color: #2d2d2e;
+	padding: 80px 0;
+}
+
+.connect{
+	color: white;
+	
+	font-family: cambria;
+	font-weight: ;
+}
+
+.segment-three{
+	
+}
+
+.logf{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#tf{
+
+	color: white;
+	font-family:Charlemagne Std;
+	line-height: 20px; 
+
+}
+
+#ssf{
+	font-family: cambria;
+	font-size: 25px;
+}
+
+.fab{
+	color: white;
+	font-size: 20px;
+	margin: 10px;
+}
+
+.fbi{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+#twiicon1{
+	margin: 10px;
+	background-color: #316DC3;
+}
+
+#twiicon2{
+		margin: 10px;
+	background-color: #0dcbff;
+}
+
+#twiicon3{
+	margin: 10px;
+	background-color: #e332a8;
+}
+
+#twiicon4{
+	margin: 10px;
+	background-color: #0585f5;
+}
+
+#twiicon5{
+	margin: 10px;
+	background-color: #c20840;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.contact3box{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+	justify-content: center;
+}
+
+*/
+
+/*
+@media screen and (max-width: 600px){
+	#formGroupExampleInput{
+		width: 100%;
+	}
+	form{
+		display: block;
+	}
+}
+*/
+
+
+
+
